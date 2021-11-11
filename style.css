@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200&display=swap");
+
+.gift-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  z-index: 1;
+  cursor: pointer;
+}
+.birtday-celebr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  display: none;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  font-family: "IBM Plex Sans", sans-serif;
+  background-color: black;
+}
+
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body {
+  overflow: hidden;
+}
+.unactive {
+  display: none;
+}
+.active {
+  display: flex;
+  transition: 0.2s;
+}
+p {
+  margin: 0 0;
+  position: absolute;
+  font: 16px Verdana;
+  color: #eee;
+  height: 25px;
+  top: calc(100vh - 30px);
+  text-shadow: 0 0 2px white;
+}
+.birtday-celebr h1 {
+  position: absolute;
+  color: #eee;
+  top: 20px;
+}
